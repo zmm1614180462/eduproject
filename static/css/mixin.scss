@@ -1,0 +1,4 @@
+//px 转 rem
+@function pxTorem($px) {
+  @return $px / 75px *2rem;
+}
